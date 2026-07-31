@@ -1,8 +1,23 @@
 aid: nothing
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nothing.png
 name: Nothing
-description: 'Nothing is a company surfaced as a portfolio company of eqt-ventures, gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer-technology-sector. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Nothing is a London-based consumer technology company designing smartphones (Phone series),
+  wireless earbuds (Ear series), and other consumer hardware under the Nothing and CMF by Nothing brands,
+  backed by EQT Ventures and GV. Surfaced as a portfolio-company lead in the API Evangelist network. An
+  enrichment pass confirmed Nothing publishes a consumer web presence (support centre, community, careers,
+  playground) but no public developer API, API documentation, developer portal, SDK, or webhook surface as
+  of this pass.'
 url: https://raw.githubusercontent.com/api-evangelist/nothing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer Technology Sector
+- Consumer Electronics
+- Smartphones
+- Wearables
+- Consumer Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +45,14 @@ maintainers:
 common:
 - type: Website
   url: https://nothing.tech/
+- type: Support
+  url: https://nothing.tech/pages/support-centre
+- type: PrivacyPolicy
+  url: https://nothing.tech/pages/privacy-policy
+- type: DomainSecurity
+  url: security/nothing-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
